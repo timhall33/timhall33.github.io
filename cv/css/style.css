@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.top {
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    position: relative;
+    padding: 0.1px;
+}
+.middle {
+    background-color:#AFC4D6;
+    padding: 100px;
+}
+.bottom {
+    background-color: #8DAAC7;
+    padding: 50px;
+}
+.h1_1{
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    position: absolute;
+}
+H1{
+    font-family: 'Roboto Slab', serif;
+    color: yellow;
+    font-size: 90px;
+}
+.h2_1{
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    position: absolute;
+    color: #8DAAC7;
+}
+H2 {
+    font-family: 'Combo', cursive;
+    font-size: 40px;
+}
+a {
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+.button { 
+    color: rgb(61, 61, 61);
+    padding: 6px;
+    border-width:3px;
+    border-style:solid;
+    border-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    margin-bottom: 100%;
+}
+hr.new1 {
+    border: 2px dotted rgb(61, 61, 61);
+    width: 30%;
+    margin-top: 3%;
+}
+hr.new2 {
+    border: solid rgb(61, 61, 61);
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    width: 100%;
+    padding: 0px;
+}
+.background-image {
+    opacity: 70%;
+    width: 100%;
+}
+.image1 {
+    position: absolute;
+    border-radius: 10px;
+    left: 10%;
+    bottom: 5%;
+    width: 20%;
+}
+.image2 {
+    position: absolute;
+    border-radius: 10px;
+    right: 10%;
+    top: 5%;
+    width: 20%;
+}
+.profilepic{
+    border-radius: 500px;
+}
+.image3 {
+    width: 50%;
+}
+.image4{
+    width: 100%;
+}
+.image5{
+    width: 100%;
+}
+.row {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.row2{
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 4%;
+}
+.column{
+    display: inline-block;
+}
+.left{
+    float: left;
+    width: 50%;
+
+}
+.right{
+    width: 50%;
+}
+ul li{
+    list-style-type: none;
+}
+dd {
+    display: inline-block ;
+}
+dt{
+    display: inline-block;
+}
